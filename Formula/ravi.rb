@@ -1,28 +1,28 @@
 class Ravi < Formula
   desc "CLI for AI agents to access email, SMS, and passwords via Ravi"
   homepage "https://github.com/ravi-hq/cli"
-  version "0.5.1"
+  version "0.5.2"
   license "Proprietary"
 
   on_macos do
     on_arm do
       url "https://github.com/ravi-hq/cli/releases/download/v#{version}/ravi-#{version}-darwin-arm64.tar.gz"
-      sha256 "263388f662794d024691cb374bca46e11b8e9466d12d784e2c316f5b1a60a2cc"
+      sha256 "c7861a3180c424cee6458cae31660f005f387543b7dab6ddaf3f3eede2c7d355"
     end
     on_intel do
       url "https://github.com/ravi-hq/cli/releases/download/v#{version}/ravi-#{version}-darwin-amd64.tar.gz"
-      sha256 "25c2a43558b8dd9c7b28c0ad3918c7f7a138fe440f1a8bcb3959ee4ae3276a1d"
+      sha256 "229152e5cc8e8647773727872221bd9d82213620ad40156c0c0903c99e4f2190"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ravi-hq/cli/releases/download/v#{version}/ravi-#{version}-linux-arm64.tar.gz"
-      sha256 "9e08538d031e3e976b5e3d99ec46c3c6c6e0f10a2c3ddfc50078f33fca73ad02"
+      sha256 "db52e5783b6f9ee9f137909feb261ef9f1d0110fdf09c82c74acdb153d2c6314"
     end
     on_intel do
       url "https://github.com/ravi-hq/cli/releases/download/v#{version}/ravi-#{version}-linux-amd64.tar.gz"
-      sha256 "a4d954543b31c9a83abf37e4b8ca142735d34b6e804f8afa42545d3557890a9f"
+      sha256 "47bd5e339ac46d219dbd6030716e5bd8c4e290c8e5733e0a34dad7386808a441"
     end
   end
 
