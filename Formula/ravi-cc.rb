@@ -1,27 +1,27 @@
 class RaviCc < Formula
   desc "Daemon-based CLI that routes Ravi email events to handlers"
   homepage "https://github.com/ravi-hq/ravi-cc"
-  version "0.23.0"
+  version "0.24.0"
 
   on_macos do
     on_arm do
-      url "https://downloads.ravi.id/ravi-cc/v0.23.0/ravi-cc-0.23.0-darwin-arm64.tar.gz"
-      sha256 "25cf43ec979284c6397924d037b6fc10841d8d47cb56f299abf5a1697eb4972d"
+      url "https://downloads.ravi.id/ravi-cc/v0.24.0/ravi-cc-0.24.0-darwin-arm64.tar.gz"
+      sha256 "b26dd26fd0975678a8582bbb15fdfc678798827af6ca8affa2c198951e2b8fba"
     end
     on_intel do
-      url "https://downloads.ravi.id/ravi-cc/v0.23.0/ravi-cc-0.23.0-darwin-amd64.tar.gz"
-      sha256 "240360afb35b729ada0ccb7a01eeaf1f6aa09633d184df528df4d72cc6ce0b0a"
+      url "https://downloads.ravi.id/ravi-cc/v0.24.0/ravi-cc-0.24.0-darwin-amd64.tar.gz"
+      sha256 "527c02890da1a7c3672383101b02de2adf554ca4475637334c344d1a21d88cd8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://downloads.ravi.id/ravi-cc/v0.23.0/ravi-cc-0.23.0-linux-arm64.tar.gz"
-      sha256 "5a3937a59203e28bbc91bfc96a90e56aa6944eaebb73005df0efd6b0304b2681"
+      url "https://downloads.ravi.id/ravi-cc/v0.24.0/ravi-cc-0.24.0-linux-arm64.tar.gz"
+      sha256 "f5bf528e9fc23e30b8e4f8039f640c2723f7e1cd159f746b44ec1ddcede9d2a7"
     end
     on_intel do
-      url "https://downloads.ravi.id/ravi-cc/v0.23.0/ravi-cc-0.23.0-linux-amd64.tar.gz"
-      sha256 "05eb3010322543da07236d2ab0e7760b5b8e299a78446365abac28719a97e77d"
+      url "https://downloads.ravi.id/ravi-cc/v0.24.0/ravi-cc-0.24.0-linux-amd64.tar.gz"
+      sha256 "bd82f71b48982c03008313e7a2e21c865f9f99782d852e35a2bc45cbf8337968"
     end
   end
 
