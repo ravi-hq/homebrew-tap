@@ -1,27 +1,27 @@
 class RaviCc < Formula
   desc "Daemon-based companion CLI for Ravi"
   homepage "https://github.com/ravi-hq/ravi-cc"
-  version "0.5.0"
+  version "0.6.0"
 
   on_macos do
     on_arm do
-      url "https://downloads.ravi.id/ravi-cc/v0.5.0/ravi-cc-0.5.0-darwin-arm64.tar.gz"
-      sha256 "83368fe811e2bb1ee5d6960a8d48b8a6d36b0e34e714b7038b2f5f83526f17c5"
+      url "https://downloads.ravi.id/ravi-cc/v0.6.0/ravi-cc-0.6.0-darwin-arm64.tar.gz"
+      sha256 "73565ff13330b25c820dcc501d73443553ef202af9277cd8d4d62cc2ed017489"
     end
     on_intel do
-      url "https://downloads.ravi.id/ravi-cc/v0.5.0/ravi-cc-0.5.0-darwin-amd64.tar.gz"
-      sha256 "da260132204d5ef670224993df74cf999ceed9e03da6b08d8607ec3eafa20660"
+      url "https://downloads.ravi.id/ravi-cc/v0.6.0/ravi-cc-0.6.0-darwin-amd64.tar.gz"
+      sha256 "bc103bab1633decdd145ab23f726045f957a475bac6ca63b91eb013e5fb3e7d7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://downloads.ravi.id/ravi-cc/v0.5.0/ravi-cc-0.5.0-linux-arm64.tar.gz"
-      sha256 "169d3a776760cb66f5c7aab7cc06f36c81b268bab7b860f4321bea247a440af1"
+      url "https://downloads.ravi.id/ravi-cc/v0.6.0/ravi-cc-0.6.0-linux-arm64.tar.gz"
+      sha256 "49aa5ac7df694f2e20707414ab53e1a2c86fd1e3886d8ae645e831330f782181"
     end
     on_intel do
-      url "https://downloads.ravi.id/ravi-cc/v0.5.0/ravi-cc-0.5.0-linux-amd64.tar.gz"
-      sha256 "4b050729f92c4cf10e6660ebb0e042ca43e9e71f704d2fe1321b98e36280ea30"
+      url "https://downloads.ravi.id/ravi-cc/v0.6.0/ravi-cc-0.6.0-linux-amd64.tar.gz"
+      sha256 "9cfdfd54628da80b91ebf2c9c6bd1c7482e623f393c8e0fce2871e9318229352"
     end
   end
 
