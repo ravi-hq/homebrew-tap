@@ -1,27 +1,27 @@
 class Ravix < Formula
   desc "Daemon-based CLI that routes Ravi email events to handlers"
   homepage "https://github.com/ravi-hq/ravix"
-  version "0.27.0"
+  version "0.27.1"
 
   on_macos do
     on_arm do
-      url "https://downloads.ravi.id/ravix/v0.27.0/ravix-0.27.0-darwin-arm64.tar.gz"
-      sha256 "16c4d17f83ea035f8486ee7e24732c4a0b9987d25c982cdb16d190c9c62a2d5d"
+      url "https://downloads.ravi.id/ravix/v0.27.1/ravix-0.27.1-darwin-arm64.tar.gz"
+      sha256 "ea595629e84bed29507b72bee728a9fdaf7b2299a8615e4e80edfb90c0aa449f"
     end
     on_intel do
-      url "https://downloads.ravi.id/ravix/v0.27.0/ravix-0.27.0-darwin-amd64.tar.gz"
-      sha256 "39ab406a834586e781f18529f0519cd15d0bb5c2a0d7a0dcb33238049011c060"
+      url "https://downloads.ravi.id/ravix/v0.27.1/ravix-0.27.1-darwin-amd64.tar.gz"
+      sha256 "c79f8eb4b93682c6449c5570019f6ca2e7f8cbf22c05349d24fc7dd5f16e99c5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://downloads.ravi.id/ravix/v0.27.0/ravix-0.27.0-linux-arm64.tar.gz"
-      sha256 "b6e5ea1548397731a00404ce9376fbd6d26354fd839b04d88e80984beeea76fe"
+      url "https://downloads.ravi.id/ravix/v0.27.1/ravix-0.27.1-linux-arm64.tar.gz"
+      sha256 "79edd9c39228dbbc5677696b30febfb78b1c1923ef9d19d6e7030668e04f1bf9"
     end
     on_intel do
-      url "https://downloads.ravi.id/ravix/v0.27.0/ravix-0.27.0-linux-amd64.tar.gz"
-      sha256 "2cfd37d071e636e15d688dd619ba49fb14386ec6b51ba1fda06a8467f665309a"
+      url "https://downloads.ravi.id/ravix/v0.27.1/ravix-0.27.1-linux-amd64.tar.gz"
+      sha256 "7121ce11a93151610459b8d21602874e8f3c3d30deb0bba1fe3c4e84a72af2ef"
     end
   end
 
